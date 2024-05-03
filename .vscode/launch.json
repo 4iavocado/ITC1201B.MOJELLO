@@ -1,0 +1,924 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "SJF_nonpreemptive",
+            "request": "launch",
+            "mainClass": "OS.SJF_nonpreemptive",
+            "projectName": "ITC1201B.MOJELLO"
+        },
+        {
+            "type": "java",
+            "name": "SJF_preemptive",
+            "request": "launch",
+            "mainClass": "OS.SJF_preemptive",
+            "projectName": "ITC1201B.MOJELLO"
+        },
+        {
+            "type": "java",
+            "name": "FCFS",
+            "request": "launch",
+            "mainClass": "OS.FCFS",
+            "projectName": "ITC1201B.MOJELLO"
+        },
+        {
+            "type": "java",
+            "name": "gio",
+            "request": "launch",
+            "mainClass": "OS.gio",
+            "projectName": "ITC1201B.MOJELLO"
+        },
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "program42",
+            "request": "launch",
+            "mainClass": "finals.program42",
+            "projectName": "ITC1201B.MOJELLO_50477f6b"
+        },
+        {
+            "type": "java",
+            "name": "program43",
+            "request": "launch",
+            "mainClass": "finals.program43",
+            "projectName": "ITC1201B.MOJELLO_50477f6b"
+        },
+        {
+            "type": "java",
+            "name": "program44",
+            "request": "launch",
+            "mainClass": "finals.program44",
+            "projectName": "ITC1201B.MOJELLO_50477f6b"
+        },
+        {
+            "type": "java",
+            "name": "program45",
+            "request": "launch",
+            "mainClass": "finals.program45",
+            "projectName": "ITC1201B.MOJELLO_50477f6b"
+        },
+        {
+            "type": "java",
+            "name": "program46",
+            "request": "launch",
+            "mainClass": "finals.program46",
+            "projectName": "ITC1201B.MOJELLO_50477f6b"
+        },
+        {
+            "type": "java",
+            "name": "program47",
+            "request": "launch",
+            "mainClass": "finals.program47",
+            "projectName": "ITC1201B.MOJELLO_50477f6b"
+        },
+        {
+            "type": "java",
+            "name": "program48",
+            "request": "launch",
+            "mainClass": "finals.program48",
+            "projectName": "ITC1201B.MOJELLO_50477f6b"
+        },
+        {
+            "type": "java",
+            "name": "program49",
+            "request": "launch",
+            "mainClass": "finals.program49",
+            "projectName": "ITC1201B.MOJELLO_50477f6b"
+        },
+        {
+            "type": "java",
+            "name": "program50",
+            "request": "launch",
+            "mainClass": "finals.program50",
+            "projectName": "ITC1201B.MOJELLO_50477f6b"
+        },
+        {
+            "type": "java",
+            "name": "program51",
+            "request": "launch",
+            "mainClass": "finals.program51",
+            "projectName": "ITC1201B.MOJELLO_50477f6b"
+        },
+        {
+            "type": "java",
+            "name": "program52",
+            "request": "launch",
+            "mainClass": "finals.program52",
+            "projectName": "ITC1201B.MOJELLO_50477f6b"
+        },
+        {
+            "type": "java",
+            "name": "program53",
+            "request": "launch",
+            "mainClass": "finals.program53",
+            "projectName": "ITC1201B.MOJELLO_50477f6b"
+        },
+        {
+            "type": "java",
+            "name": "program54",
+            "request": "launch",
+            "mainClass": "finals.program54",
+            "projectName": "ITC1201B.MOJELLO_50477f6b"
+        },
+        {
+            "type": "java",
+            "name": "program55",
+            "request": "launch",
+            "mainClass": "finals.program55",
+            "projectName": "ITC1201B.MOJELLO_50477f6b"
+        },
+        {
+            "type": "java",
+            "name": "program56",
+            "request": "launch",
+            "mainClass": "finals.program56",
+            "projectName": "ITC1201B.MOJELLO_50477f6b"
+        },
+        {
+            "type": "java",
+            "name": "program57",
+            "request": "launch",
+            "mainClass": "finals.program57",
+            "projectName": "ITC1201B.MOJELLO_50477f6b"
+        },
+        {
+            "type": "java",
+            "name": "program19",
+            "request": "launch",
+            "mainClass": "midterm.program19",
+            "projectName": "ITC1201B.MOJELLO_50477f6b"
+        },
+        {
+            "type": "java",
+            "name": "program20",
+            "request": "launch",
+            "mainClass": "midterm.program20",
+            "projectName": "ITC1201B.MOJELLO_50477f6b"
+        },
+        {
+            "type": "java",
+            "name": "program21",
+            "request": "launch",
+            "mainClass": "midterm.program21",
+            "projectName": "ITC1201B.MOJELLO_50477f6b"
+        },
+        {
+            "type": "java",
+            "name": "program22",
+            "request": "launch",
+            "mainClass": "midterm.program22",
+            "projectName": "ITC1201B.MOJELLO_50477f6b"
+        },
+        {
+            "type": "java",
+            "name": "program23",
+            "request": "launch",
+            "mainClass": "midterm.program23",
+            "projectName": "ITC1201B.MOJELLO_50477f6b"
+        },
+        {
+            "type": "java",
+            "name": "program24",
+            "request": "launch",
+            "mainClass": "midterm.program24",
+            "projectName": "ITC1201B.MOJELLO_50477f6b"
+        },
+        {
+            "type": "java",
+            "name": "program25",
+            "request": "launch",
+            "mainClass": "midterm.program25",
+            "projectName": "ITC1201B.MOJELLO_50477f6b"
+        },
+        {
+            "type": "java",
+            "name": "program26",
+            "request": "launch",
+            "mainClass": "midterm.program26",
+            "projectName": "ITC1201B.MOJELLO_50477f6b"
+        },
+        {
+            "type": "java",
+            "name": "program27",
+            "request": "launch",
+            "mainClass": "midterm.program27",
+            "projectName": "ITC1201B.MOJELLO_50477f6b"
+        },
+        {
+            "type": "java",
+            "name": "program28",
+            "request": "launch",
+            "mainClass": "midterm.program28",
+            "projectName": "ITC1201B.MOJELLO_50477f6b"
+        },
+        {
+            "type": "java",
+            "name": "program29",
+            "request": "launch",
+            "mainClass": "midterm.program29",
+            "projectName": "ITC1201B.MOJELLO_50477f6b"
+        },
+        {
+            "type": "java",
+            "name": "program30",
+            "request": "launch",
+            "mainClass": "midterm.program30",
+            "projectName": "ITC1201B.MOJELLO_50477f6b"
+        },
+        {
+            "type": "java",
+            "name": "program31",
+            "request": "launch",
+            "mainClass": "midterm.program31",
+            "projectName": "ITC1201B.MOJELLO_50477f6b"
+        },
+        {
+            "type": "java",
+            "name": "program32",
+            "request": "launch",
+            "mainClass": "midterm.program32",
+            "projectName": "ITC1201B.MOJELLO_50477f6b"
+        },
+        {
+            "type": "java",
+            "name": "program33",
+            "request": "launch",
+            "mainClass": "midterm.program33",
+            "projectName": "ITC1201B.MOJELLO_50477f6b"
+        },
+        {
+            "type": "java",
+            "name": "program34",
+            "request": "launch",
+            "mainClass": "midterm.program34",
+            "projectName": "ITC1201B.MOJELLO_50477f6b"
+        },
+        {
+            "type": "java",
+            "name": "program35",
+            "request": "launch",
+            "mainClass": "midterm.program35",
+            "projectName": "ITC1201B.MOJELLO_50477f6b"
+        },
+        {
+            "type": "java",
+            "name": "program36",
+            "request": "launch",
+            "mainClass": "midterm.program36",
+            "projectName": "ITC1201B.MOJELLO_50477f6b"
+        },
+        {
+            "type": "java",
+            "name": "program37",
+            "request": "launch",
+            "mainClass": "midterm.program37",
+            "projectName": "ITC1201B.MOJELLO_50477f6b"
+        },
+        {
+            "type": "java",
+            "name": "program38",
+            "request": "launch",
+            "mainClass": "midterm.program38",
+            "projectName": "ITC1201B.MOJELLO_50477f6b"
+        },
+        {
+            "type": "java",
+            "name": "program39",
+            "request": "launch",
+            "mainClass": "midterm.program39",
+            "projectName": "ITC1201B.MOJELLO_50477f6b"
+        },
+        {
+            "type": "java",
+            "name": "program40",
+            "request": "launch",
+            "mainClass": "midterm.program40",
+            "projectName": "ITC1201B.MOJELLO_50477f6b"
+        },
+        {
+            "type": "java",
+            "name": "program41",
+            "request": "launch",
+            "mainClass": "midterm.program41",
+            "projectName": "ITC1201B.MOJELLO_50477f6b"
+        },
+        {
+            "type": "java",
+            "name": "RoundRobin",
+            "request": "launch",
+            "mainClass": "operatingsystem.RoundRobin",
+            "projectName": "ITC1201B.MOJELLO_50477f6b"
+        },
+        {
+            "type": "java",
+            "name": "fcfs",
+            "request": "launch",
+            "mainClass": "operatingsystem.fcfs",
+            "projectName": "ITC1201B.MOJELLO_50477f6b"
+        },
+        {
+            "type": "java",
+            "name": "preemptive_fcfs",
+            "request": "launch",
+            "mainClass": "operatingsystem.preemptive_fcfs",
+            "projectName": "ITC1201B.MOJELLO_50477f6b"
+        },
+        {
+            "type": "java",
+            "name": "sjf",
+            "request": "launch",
+            "mainClass": "operatingsystem.sjf",
+            "projectName": "ITC1201B.MOJELLO_50477f6b"
+        },
+        {
+            "type": "java",
+            "name": "p1",
+            "request": "launch",
+            "mainClass": "practicecodes.p1",
+            "projectName": "ITC1201B.MOJELLO_50477f6b"
+        },
+        {
+            "type": "java",
+            "name": "p2",
+            "request": "launch",
+            "mainClass": "practicecodes.p2",
+            "projectName": "ITC1201B.MOJELLO_50477f6b"
+        },
+        {
+            "type": "java",
+            "name": "program1",
+            "request": "launch",
+            "mainClass": "prelim.program1",
+            "projectName": "ITC1201B.MOJELLO_50477f6b"
+        },
+        {
+            "type": "java",
+            "name": "program10",
+            "request": "launch",
+            "mainClass": "prelim.program10",
+            "projectName": "ITC1201B.MOJELLO_50477f6b"
+        },
+        {
+            "type": "java",
+            "name": "program11",
+            "request": "launch",
+            "mainClass": "prelim.program11",
+            "projectName": "ITC1201B.MOJELLO_50477f6b"
+        },
+        {
+            "type": "java",
+            "name": "program12",
+            "request": "launch",
+            "mainClass": "prelim.program12",
+            "projectName": "ITC1201B.MOJELLO_50477f6b"
+        },
+        {
+            "type": "java",
+            "name": "program13",
+            "request": "launch",
+            "mainClass": "prelim.program13",
+            "projectName": "ITC1201B.MOJELLO_50477f6b"
+        },
+        {
+            "type": "java",
+            "name": "program14",
+            "request": "launch",
+            "mainClass": "prelim.program14",
+            "projectName": "ITC1201B.MOJELLO_50477f6b"
+        },
+        {
+            "type": "java",
+            "name": "program15",
+            "request": "launch",
+            "mainClass": "prelim.program15",
+            "projectName": "ITC1201B.MOJELLO_50477f6b"
+        },
+        {
+            "type": "java",
+            "name": "program16",
+            "request": "launch",
+            "mainClass": "prelim.program16",
+            "projectName": "ITC1201B.MOJELLO_50477f6b"
+        },
+        {
+            "type": "java",
+            "name": "program17",
+            "request": "launch",
+            "mainClass": "prelim.program17",
+            "projectName": "ITC1201B.MOJELLO_50477f6b"
+        },
+        {
+            "type": "java",
+            "name": "program18",
+            "request": "launch",
+            "mainClass": "prelim.program18",
+            "projectName": "ITC1201B.MOJELLO_50477f6b"
+        },
+        {
+            "type": "java",
+            "name": "program2",
+            "request": "launch",
+            "mainClass": "prelim.program2",
+            "projectName": "ITC1201B.MOJELLO_50477f6b"
+        },
+        {
+            "type": "java",
+            "name": "program3",
+            "request": "launch",
+            "mainClass": "prelim.program3",
+            "projectName": "ITC1201B.MOJELLO_50477f6b"
+        },
+        {
+            "type": "java",
+            "name": "program4",
+            "request": "launch",
+            "mainClass": "prelim.program4",
+            "projectName": "ITC1201B.MOJELLO_50477f6b"
+        },
+        {
+            "type": "java",
+            "name": "program5",
+            "request": "launch",
+            "mainClass": "prelim.program5",
+            "projectName": "ITC1201B.MOJELLO_50477f6b"
+        },
+        {
+            "type": "java",
+            "name": "program6",
+            "request": "launch",
+            "mainClass": "prelim.program6",
+            "projectName": "ITC1201B.MOJELLO_50477f6b"
+        },
+        {
+            "type": "java",
+            "name": "program7",
+            "request": "launch",
+            "mainClass": "prelim.program7",
+            "projectName": "ITC1201B.MOJELLO_50477f6b"
+        },
+        {
+            "type": "java",
+            "name": "program8",
+            "request": "launch",
+            "mainClass": "prelim.program8",
+            "projectName": "ITC1201B.MOJELLO_50477f6b"
+        },
+        {
+            "type": "java",
+            "name": "program9",
+            "request": "launch",
+            "mainClass": "prelim.program9",
+            "projectName": "ITC1201B.MOJELLO_50477f6b"
+        },
+        {
+            "type": "java",
+            "name": "program42(1)",
+            "request": "launch",
+            "mainClass": "finals.program42",
+            "projectName": "ITC1201B.MOJELLO"
+        },
+        {
+            "type": "java",
+            "name": "program43(1)",
+            "request": "launch",
+            "mainClass": "finals.program43",
+            "projectName": "ITC1201B.MOJELLO"
+        },
+        {
+            "type": "java",
+            "name": "program44(1)",
+            "request": "launch",
+            "mainClass": "finals.program44",
+            "projectName": "ITC1201B.MOJELLO"
+        },
+        {
+            "type": "java",
+            "name": "program45(1)",
+            "request": "launch",
+            "mainClass": "finals.program45",
+            "projectName": "ITC1201B.MOJELLO"
+        },
+        {
+            "type": "java",
+            "name": "program46(1)",
+            "request": "launch",
+            "mainClass": "finals.program46",
+            "projectName": "ITC1201B.MOJELLO"
+        },
+        {
+            "type": "java",
+            "name": "program47(1)",
+            "request": "launch",
+            "mainClass": "finals.program47",
+            "projectName": "ITC1201B.MOJELLO"
+        },
+        {
+            "type": "java",
+            "name": "program48(1)",
+            "request": "launch",
+            "mainClass": "finals.program48",
+            "projectName": "ITC1201B.MOJELLO"
+        },
+        {
+            "type": "java",
+            "name": "program49(1)",
+            "request": "launch",
+            "mainClass": "finals.program49",
+            "projectName": "ITC1201B.MOJELLO"
+        },
+        {
+            "type": "java",
+            "name": "program50(1)",
+            "request": "launch",
+            "mainClass": "finals.program50",
+            "projectName": "ITC1201B.MOJELLO"
+        },
+        {
+            "type": "java",
+            "name": "program51(1)",
+            "request": "launch",
+            "mainClass": "finals.program51",
+            "projectName": "ITC1201B.MOJELLO"
+        },
+        {
+            "type": "java",
+            "name": "program52(1)",
+            "request": "launch",
+            "mainClass": "finals.program52",
+            "projectName": "ITC1201B.MOJELLO"
+        },
+        {
+            "type": "java",
+            "name": "program53(1)",
+            "request": "launch",
+            "mainClass": "finals.program53",
+            "projectName": "ITC1201B.MOJELLO"
+        },
+        {
+            "type": "java",
+            "name": "program54(1)",
+            "request": "launch",
+            "mainClass": "finals.program54",
+            "projectName": "ITC1201B.MOJELLO"
+        },
+        {
+            "type": "java",
+            "name": "program55(1)",
+            "request": "launch",
+            "mainClass": "finals.program55",
+            "projectName": "ITC1201B.MOJELLO"
+        },
+        {
+            "type": "java",
+            "name": "program56(1)",
+            "request": "launch",
+            "mainClass": "finals.program56",
+            "projectName": "ITC1201B.MOJELLO"
+        },
+        {
+            "type": "java",
+            "name": "program57(1)",
+            "request": "launch",
+            "mainClass": "finals.program57",
+            "projectName": "ITC1201B.MOJELLO"
+        },
+        {
+            "type": "java",
+            "name": "program19(1)",
+            "request": "launch",
+            "mainClass": "midterm.program19",
+            "projectName": "ITC1201B.MOJELLO"
+        },
+        {
+            "type": "java",
+            "name": "program20(1)",
+            "request": "launch",
+            "mainClass": "midterm.program20",
+            "projectName": "ITC1201B.MOJELLO"
+        },
+        {
+            "type": "java",
+            "name": "program21(1)",
+            "request": "launch",
+            "mainClass": "midterm.program21",
+            "projectName": "ITC1201B.MOJELLO"
+        },
+        {
+            "type": "java",
+            "name": "program22(1)",
+            "request": "launch",
+            "mainClass": "midterm.program22",
+            "projectName": "ITC1201B.MOJELLO"
+        },
+        {
+            "type": "java",
+            "name": "program23(1)",
+            "request": "launch",
+            "mainClass": "midterm.program23",
+            "projectName": "ITC1201B.MOJELLO"
+        },
+        {
+            "type": "java",
+            "name": "program24(1)",
+            "request": "launch",
+            "mainClass": "midterm.program24",
+            "projectName": "ITC1201B.MOJELLO"
+        },
+        {
+            "type": "java",
+            "name": "program25(1)",
+            "request": "launch",
+            "mainClass": "midterm.program25",
+            "projectName": "ITC1201B.MOJELLO"
+        },
+        {
+            "type": "java",
+            "name": "program26(1)",
+            "request": "launch",
+            "mainClass": "midterm.program26",
+            "projectName": "ITC1201B.MOJELLO"
+        },
+        {
+            "type": "java",
+            "name": "program27(1)",
+            "request": "launch",
+            "mainClass": "midterm.program27",
+            "projectName": "ITC1201B.MOJELLO"
+        },
+        {
+            "type": "java",
+            "name": "program28(1)",
+            "request": "launch",
+            "mainClass": "midterm.program28",
+            "projectName": "ITC1201B.MOJELLO"
+        },
+        {
+            "type": "java",
+            "name": "program29(1)",
+            "request": "launch",
+            "mainClass": "midterm.program29",
+            "projectName": "ITC1201B.MOJELLO"
+        },
+        {
+            "type": "java",
+            "name": "program30(1)",
+            "request": "launch",
+            "mainClass": "midterm.program30",
+            "projectName": "ITC1201B.MOJELLO"
+        },
+        {
+            "type": "java",
+            "name": "program31(1)",
+            "request": "launch",
+            "mainClass": "midterm.program31",
+            "projectName": "ITC1201B.MOJELLO"
+        },
+        {
+            "type": "java",
+            "name": "program32(1)",
+            "request": "launch",
+            "mainClass": "midterm.program32",
+            "projectName": "ITC1201B.MOJELLO"
+        },
+        {
+            "type": "java",
+            "name": "program33(1)",
+            "request": "launch",
+            "mainClass": "midterm.program33",
+            "projectName": "ITC1201B.MOJELLO"
+        },
+        {
+            "type": "java",
+            "name": "program34(1)",
+            "request": "launch",
+            "mainClass": "midterm.program34",
+            "projectName": "ITC1201B.MOJELLO"
+        },
+        {
+            "type": "java",
+            "name": "program35(1)",
+            "request": "launch",
+            "mainClass": "midterm.program35",
+            "projectName": "ITC1201B.MOJELLO"
+        },
+        {
+            "type": "java",
+            "name": "program36(1)",
+            "request": "launch",
+            "mainClass": "midterm.program36",
+            "projectName": "ITC1201B.MOJELLO"
+        },
+        {
+            "type": "java",
+            "name": "program37(1)",
+            "request": "launch",
+            "mainClass": "midterm.program37",
+            "projectName": "ITC1201B.MOJELLO"
+        },
+        {
+            "type": "java",
+            "name": "program38(1)",
+            "request": "launch",
+            "mainClass": "midterm.program38",
+            "projectName": "ITC1201B.MOJELLO"
+        },
+        {
+            "type": "java",
+            "name": "program39(1)",
+            "request": "launch",
+            "mainClass": "midterm.program39",
+            "projectName": "ITC1201B.MOJELLO"
+        },
+        {
+            "type": "java",
+            "name": "program40(1)",
+            "request": "launch",
+            "mainClass": "midterm.program40",
+            "projectName": "ITC1201B.MOJELLO"
+        },
+        {
+            "type": "java",
+            "name": "program41(1)",
+            "request": "launch",
+            "mainClass": "midterm.program41",
+            "projectName": "ITC1201B.MOJELLO"
+        },
+        {
+            "type": "java",
+            "name": "RoundRobin(1)",
+            "request": "launch",
+            "mainClass": "operatingsystem.RoundRobin",
+            "projectName": "ITC1201B.MOJELLO"
+        },
+        {
+            "type": "java",
+            "name": "fcfs(1)",
+            "request": "launch",
+            "mainClass": "operatingsystem.fcfs",
+            "projectName": "ITC1201B.MOJELLO"
+        },
+        {
+            "type": "java",
+            "name": "preemptive_fcfs(1)",
+            "request": "launch",
+            "mainClass": "operatingsystem.preemptive_fcfs",
+            "projectName": "ITC1201B.MOJELLO"
+        },
+        {
+            "type": "java",
+            "name": "sjf(1)",
+            "request": "launch",
+            "mainClass": "operatingsystem.sjf",
+            "projectName": "ITC1201B.MOJELLO"
+        },
+        {
+            "type": "java",
+            "name": "p1(1)",
+            "request": "launch",
+            "mainClass": "practicecodes.p1",
+            "projectName": "ITC1201B.MOJELLO"
+        },
+        {
+            "type": "java",
+            "name": "p2(1)",
+            "request": "launch",
+            "mainClass": "practicecodes.p2",
+            "projectName": "ITC1201B.MOJELLO"
+        },
+        {
+            "type": "java",
+            "name": "program1(1)",
+            "request": "launch",
+            "mainClass": "prelim.program1",
+            "projectName": "ITC1201B.MOJELLO"
+        },
+        {
+            "type": "java",
+            "name": "program10(1)",
+            "request": "launch",
+            "mainClass": "prelim.program10",
+            "projectName": "ITC1201B.MOJELLO"
+        },
+        {
+            "type": "java",
+            "name": "program11(1)",
+            "request": "launch",
+            "mainClass": "prelim.program11",
+            "projectName": "ITC1201B.MOJELLO"
+        },
+        {
+            "type": "java",
+            "name": "program12(1)",
+            "request": "launch",
+            "mainClass": "prelim.program12",
+            "projectName": "ITC1201B.MOJELLO"
+        },
+        {
+            "type": "java",
+            "name": "program13(1)",
+            "request": "launch",
+            "mainClass": "prelim.program13",
+            "projectName": "ITC1201B.MOJELLO"
+        },
+        {
+            "type": "java",
+            "name": "program14(1)",
+            "request": "launch",
+            "mainClass": "prelim.program14",
+            "projectName": "ITC1201B.MOJELLO"
+        },
+        {
+            "type": "java",
+            "name": "program15(1)",
+            "request": "launch",
+            "mainClass": "prelim.program15",
+            "projectName": "ITC1201B.MOJELLO"
+        },
+        {
+            "type": "java",
+            "name": "program16(1)",
+            "request": "launch",
+            "mainClass": "prelim.program16",
+            "projectName": "ITC1201B.MOJELLO"
+        },
+        {
+            "type": "java",
+            "name": "program17(1)",
+            "request": "launch",
+            "mainClass": "prelim.program17",
+            "projectName": "ITC1201B.MOJELLO"
+        },
+        {
+            "type": "java",
+            "name": "program18(1)",
+            "request": "launch",
+            "mainClass": "prelim.program18",
+            "projectName": "ITC1201B.MOJELLO"
+        },
+        {
+            "type": "java",
+            "name": "program2(1)",
+            "request": "launch",
+            "mainClass": "prelim.program2",
+            "projectName": "ITC1201B.MOJELLO"
+        },
+        {
+            "type": "java",
+            "name": "program3(1)",
+            "request": "launch",
+            "mainClass": "prelim.program3",
+            "projectName": "ITC1201B.MOJELLO"
+        },
+        {
+            "type": "java",
+            "name": "program4(1)",
+            "request": "launch",
+            "mainClass": "prelim.program4",
+            "projectName": "ITC1201B.MOJELLO"
+        },
+        {
+            "type": "java",
+            "name": "program5(1)",
+            "request": "launch",
+            "mainClass": "prelim.program5",
+            "projectName": "ITC1201B.MOJELLO"
+        },
+        {
+            "type": "java",
+            "name": "program6(1)",
+            "request": "launch",
+            "mainClass": "prelim.program6",
+            "projectName": "ITC1201B.MOJELLO"
+        },
+        {
+            "type": "java",
+            "name": "program7(1)",
+            "request": "launch",
+            "mainClass": "prelim.program7",
+            "projectName": "ITC1201B.MOJELLO"
+        },
+        {
+            "type": "java",
+            "name": "program8(1)",
+            "request": "launch",
+            "mainClass": "prelim.program8",
+            "projectName": "ITC1201B.MOJELLO"
+        },
+        {
+            "type": "java",
+            "name": "program9(1)",
+            "request": "launch",
+            "mainClass": "prelim.program9",
+            "projectName": "ITC1201B.MOJELLO"
+        }
+    ]
+}
